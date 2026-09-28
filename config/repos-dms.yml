@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: dnf
+repos:
+  copr:
+    - avengemedia/danklinux
+    - avengemedia/dms
+    - sdegler/hyprland
+install:
+  packages:
+    - micro
+    - dgop
+    - dms
+    - hyprland
+    - matugen
+    - quickshell
+    - xdg-desktop-portal-hyprland
