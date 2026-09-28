@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: CyclonusOS
-description: Bazzite with DankMaterialShell and Hyprland
+name: cyclonusos
+description: CyclonusOS - Bazzite with DankMaterialShell and Hyprland
 base-image: ghcr.io/ublue-os/bazzite
 image-version: stable
 
