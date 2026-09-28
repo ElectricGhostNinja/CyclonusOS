@@ -7,7 +7,6 @@ repos:
     - sdegler/hyprland
 install:
   packages:
-    - micro
     - dgop
     - dms
     - hyprland

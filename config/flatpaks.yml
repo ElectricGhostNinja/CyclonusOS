@@ -1,9 +1,8 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
-type: default-flatpaks
+type: default-flatpaks@v1
 configurations:
   - notify: true
     scope: system
     install:
       - org.mozilla.firefox
       - org.gnome.Loupe
-  - scope: user

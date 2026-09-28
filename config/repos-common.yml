@@ -13,9 +13,10 @@ install:
     - make
     - fzf
     - ripgrep
-    - fd
+    - fd-find
     - fastfetch
     - fish
     - qbittorrent
     - emacs
     - neovim
+    - nushell

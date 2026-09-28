@@ -10,13 +10,10 @@ modules:
       - source: system
         destination: /
 
-  # Include your modular DNF and flatpak configs
-  - from-file: ../config/repos-dms.yml
-  - from-file: ../config/repos-common.yml
-  - from-file: ../config/flatpaks.yml
-
   - type: script
     scripts:
       - add-nushell-repo.sh
 
-  - type: signing
+  - from-file: repos-dms.yml
+  - from-file: repos-common.yml
+  - from-file: flatpaks.yml
