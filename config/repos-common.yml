@@ -1,21 +1,21 @@
-# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json[cite: 2]
-type: dnf
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: dnf@v1
 repos:
   copr:
-    - scottames/ghostty[cite: 2]
-    - lihaohong/yazi[cite: 2]
+    - scottames/ghostty
+    - lihaohong/yazi
 install:
   packages:
-    - ghostty[cite: 2]
-    - yazi[cite: 2]
-    - kitty[cite: 2]
-    - micro[cite: 2]
-    - make[cite: 2]
-    - fzf[cite: 2]
-    - ripgrep[cite: 2]
-    - fd[cite: 2]
-    - fastfetch[cite: 2]
-    - fish[cite: 2]
-    - qbittorrent[cite: 2]
-    - emacs[cite: 2]
-    - neovim[cite: 2]
+    - ghostty
+    - yazi
+    - kitty
+    - micro
+    - make
+    - fzf
+    - ripgrep
+    - fd
+    - fastfetch
+    - fish
+    - qbittorrent
+    - emacs
+    - neovim

@@ -11,9 +11,9 @@ modules:
         destination: /
 
   # Include your modular DNF and flatpak configs
-  - include: ../config/repos-dms.yml
-  - include: ../config/repos-common.yml
-  - include: ../config/flatpaks.yml
+  - from-file: ../config/repos-dms.yml
+  - from-file: ../config/repos-common.yml
+  - from-file: ../config/flatpaks.yml
 
   - type: script
     scripts:
