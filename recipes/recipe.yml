@@ -7,7 +7,7 @@ image-version: stable
 modules:
   - type: files
     files:
-      - source: files/system
+      - source: system
         destination: /
 
   # Include your modular DNF and flatpak configs
@@ -17,6 +17,6 @@ modules:
 
   - type: script
     scripts:
-      - files/scripts/add-nushell-repo.sh
+      - add-nushell-repo.sh
 
   - type: signing
