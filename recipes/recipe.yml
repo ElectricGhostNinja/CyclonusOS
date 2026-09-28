@@ -7,16 +7,16 @@ image-version: stable
 modules:
   - type: files
     files:
-      - source: files/system
+      - source: ../files/system
         destination: /
 
   # Include your modular DNF and flatpak configs
-  - include: config/repos-dms.yml
-  - include: config/repos-common.yml
-  - include: config/flatpaks.yml
+  - include: ../config/repos-dms.yml
+  - include: ../config/repos-common.yml
+  - include: ../config/flatpaks.yml
 
   - type: script
     scripts:
-      - files/scripts/add-nushell-repo.sh
+      - ../files/scripts/add-nushell-repo.sh
 
   - type: signing
