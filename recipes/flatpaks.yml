@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
-type: default-flatpaks@v1
+type: default-flatpaks@v2
 configurations:
   - notify: true
     scope: system
